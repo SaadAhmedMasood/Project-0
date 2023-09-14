@@ -9,9 +9,9 @@ import pandas as pd
 import streamlit as st
 #import matplotlib as plt
 
-file = r'C:\Users\HP\Desktop\streamlit\Project-0\Billionaire.csv'
-df = pd.read_csv(file)
-#df = pd.read_csv('Billionaire.csv')
+#file = r'C:\Users\HP\Desktop\streamlit\Project-0\Billionaire.csv'
+#df = pd.read_csv(file)
+df = pd.read_csv('Billionaire.csv')
 
 st.set_page_config(layout="wide")
 st.header('Billionaires datasets')
